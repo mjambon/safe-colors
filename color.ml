@@ -32,7 +32,7 @@ let colors = [
   (1.000, 1.000, 1.000);
 
   (*
-    7-color palette using only 4 RGB levels (0, 1/3, 2/3, 1),
+    8-color palette using only 4 RGB levels (0, 1/3, 2/3, 1),
     where any two colors have a different grayscale intensity
     (sum of RGB components) and differ by at least two components.
   *)
@@ -42,6 +42,7 @@ let colors = [
   (0.333, 0.667, 0.333);
   (1.000, 0.667, 0.000);
   (1.000, 0.333, 0.667);
+  (0.667, 1.000, 0.667);
   (1.000, 1.000, 1.000);
 ]
 
